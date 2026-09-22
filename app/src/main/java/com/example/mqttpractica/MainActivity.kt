@@ -15,7 +15,7 @@ import java.util.UUID
 
 class MainActivity : ComponentActivity() {
     private val brokerIp = "192.168.100.115"
-    private val topic = "casa/led"
+    private val topic = "Conexion"
     private var client: com.hivemq.client.mqtt.mqtt5.Mqtt5BlockingClient? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
